@@ -6,6 +6,8 @@ def home():
     return "HELLO from vercel use flask"
 
 @app.route("/about")
-def home():
+def about():
     return "HELLO about"
 
+if __name__ == "__main__":
+    app.run(debug=True)
